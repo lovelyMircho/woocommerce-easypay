@@ -37,5 +37,5 @@ function gateway_disable_by_currency( $available_gateways ) {
     return $available_gateways;
 }
 
-add_filter( 'woocommerce_available_payment_gateways', 'gateway_disable_by_currency' );
+add_filter( 'woocommerce_available_payment_gateways', 'gateway_avilable_by_currency' );
 ```
